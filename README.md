@@ -6,7 +6,9 @@ Professor: Andrew Forward
 
 ### Java
 
-proof that I'm running Java
+proof that I'm running Java with a screenshot from terminal
+
+
 <img width="585" alt="image" src="https://user-images.githubusercontent.com/36574103/118892558-0fef1580-b8cf-11eb-890b-d999d85d3b4d.png">
 
 ```bash
