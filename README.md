@@ -1,21 +1,13 @@
 # Lab 01
-
-| Outline | Value |
-| --- | --- |
-| Course | SEG 3X03 |
-| Date | Summer 2021 |
-| Professor | Andrew Forward, aforward@uottawa.ca |
-| TA | James Url, jamesurl@uottawa.ca |
-| Team | Andrew Forward 1484511<br>Ayana Forward 9021000 |
-
-## Deliverables
-
-* [https://github.com/aforward/seg3103_playground/tree/main/lab01](https://github.com/aforward/seg3103_playground/tree/main/lab01)
-* Shared repo above with TA and Professors
+Name: Adhish Maheswarna
+Student #: 300133918
+Course: SEG3103
+Professor: Andrew Forward
 
 ### Java
 
-I am running Java openjdk 16
+proof that I'm running Java
+<img width="585" alt="image" src="https://user-images.githubusercontent.com/36574103/118892558-0fef1580-b8cf-11eb-890b-d999d85d3b4d.png">
 
 ```bash
 $ java --version
