@@ -11,14 +11,7 @@ proof that I'm running Java with a screenshot from terminal
 
 <img width="585" alt="image" src="https://user-images.githubusercontent.com/36574103/118892558-0fef1580-b8cf-11eb-890b-d999d85d3b4d.png">
 
-```bash
-$ java --version
-openjdk 16 2021-03-16
-OpenJDK Runtime Environment (build 16+14)
-OpenJDK 64-Bit Server VM (build 16+14, mixed mode)
-```
-
-To run the Java program (in `newmath_java`), first I compile it
+I got cd into the folder containing newmath_java and to run the Java program (in `newmath_java`) I use
 
 ```bash
 javac -encoding UTF-8 --source-path src -d dist src/*.java
@@ -34,16 +27,15 @@ Here is an output of the running program
 
 ```bash
 Newmath (type 'exit' to exit program)
-Numerator: 10
-Demoninator: 2
-10 / 2 = 5
+Numerator: 30
+Demoninator: 60
+30 / 60 = 0
 Numerator: exit
 ```
 
 With a screenshot from the terminal
 
-![Running Java in the console](assets/java_main.png)
-
+<img width="585" alt="image" src="https://user-images.githubusercontent.com/36574103/118894075-8e4cb700-b8d1-11eb-8c1c-53f35e01d022.png">
 
 ### JUnit
 
