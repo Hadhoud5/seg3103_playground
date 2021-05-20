@@ -41,21 +41,22 @@ With a screenshot from the terminal
 
 I am working with JUnit 5 (via Console standalone 1.7.1)
 
-To run JUnit, I need to compile the application (see above), and then compile the test code
+To run JUnit I follow commands as listed by prof's read me file and T.A lab video
+compile command:
 
 ```bash
 javac -encoding UTF-8 --source-path test -d dist -cp dist:lib/junit-platform-console-standalone-1.7.1.jar test/*.java
 ```
-
-Then I run the tests using
-
+run command:
 ```
 java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path
 ```
 
-Here is the output of the tests
+Here is the output of my test
 
 ```bash
+Adhishs-MacBook-Pro:newmath_java adhishm$ java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path
+
 Thanks for using JUnit! Support its development at https://junit.org/sponsoring
 
 ╷
@@ -65,7 +66,7 @@ Thanks for using JUnit! Support its development at https://junit.org/sponsoring
 │     └─ div_by_zero() ✔
 └─ JUnit Vintage ✔
 
-Test run finished after 32 ms
+Test run finished after 77 ms
 [         3 containers found      ]
 [         0 containers skipped    ]
 [         3 containers started    ]
@@ -80,9 +81,10 @@ Test run finished after 32 ms
 [         0 tests failed          ]
 ```
 
-With a screenshot from the terminal
+With a screenshot from my terminal
 
-![Running JUnit in the console](assets/junit_main.png)
+<img width="645" alt="image" src="https://user-images.githubusercontent.com/36574103/118898114-cd7f0600-b8d9-11eb-8246-592d2ff8de25.png">
+
 
 
 ### Elixir
@@ -91,18 +93,22 @@ I am running Elixir 11.4 with Erlang 23
 
 ```bash
 $ elixir --version
-Erlang/OTP 23 [erts-11.1.7] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:1] [dtrace]
+Erlang/OTP 24 [erts-12.0] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:1] [jit] [dtrace]
 
-Elixir 1.11.4 (compiled with Erlang/OTP 23)
+Elixir 1.12.0 (compiled with Erlang/OTP 23)
 ```
 
-To run the Elixir program (in `newmath_ex`), first I compile it
+Follow commands from Prof and T.A lab To run the Elixir program (in `newmath_ex`)
+
+compile command:
 
 ```bash
 mix compile
-```
+Compiling 1 file (.ex)
+Generated newmath_ex app
 
-Then I run it
+```
+run command:
 
 ```bash
 iex -S mix
@@ -111,21 +117,26 @@ iex -S mix
 Here is an output of the running program
 
 ```elixir
-iex(1)> NewmathEx.
-MixProject    div/2
-iex(1)> NewmathEx.div(10, 2)
-{:ok, 5.0}
+$ iex -S mix
+Erlang/OTP 24 [erts-12.0] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:1] [jit] [dtrace]
+
+Interactive Elixir (1.12.0) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> NewmathEx.div(16, 6)
+{:ok, 2.6666666666666665}
+
 ```
 
 With a screenshot from the terminal
 
-![Running Elixir in the console](assets/elixir_iex.png)
+
+<img width="702" alt="image" src="https://user-images.githubusercontent.com/36574103/118899606-197f7a00-b8dd-11eb-8a6e-4beef2065c90.png">
+
 
 ### ExUnit
 
-ExUnit is built directly into Elixir (and compiled like above with `mix compile`)
+Followed instructions to run on ExUnit 
 
-To run the tests
+run test command for ExUnit:
 
 ```
 mix test
@@ -134,16 +145,21 @@ mix test
 Here is the output of the tests
 
 ```bash
+$ mix test
 Compiling 1 file (.ex)
+Generated newmath_ex app
 ...
 
-Finished in 0.02 seconds
+Finished in 0.03 seconds (0.00s async, 0.03s sync)
 1 doctest, 2 tests, 0 failures
 
-Randomized with seed 975082
+Randomized with seed 147010
+
 ```
 
 With a screenshot from the terminal
 
-![Running ExUnit in the console](assets/exunit_main.png)
+<img width="702" alt="image" src="https://user-images.githubusercontent.com/36574103/118899712-5ba8bb80-b8dd-11eb-96b7-0b1b3df6fe54.png">
 
+
+The format of this readme follow the readme from Prof's repository, commands and images are still mine.
