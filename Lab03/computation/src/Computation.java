@@ -1,58 +1,30 @@
 public class Computation {
 
 	public int add(int a, int b) {
-		int result = a + b;
-		int zero = 0;
-		int result2 = result;
-		if (a == Integer.MIN_VALUE) {
-		    new Integer(result);
-		}
-		int result3 = result2;
-		return result + zero;
+		return a+b;
 	}
 
 	public int multiply(int n, int m) {
-    int result = 0;
-    for (int j = 0; j < m; j++) {
-          result += n;
-      }
-    return result;
+		return n*m;
 	}
 
 	public int substract(int a, int b) {
-		int result = a - b;
-		return result;
+		return a-b;
 	}
 
-	public void catchesException() {
-	  int i = 0;
+	public void catchesException(var i) {
 	  try {
-      if (i == 13) {
-          throw new NumberFormatException();
-      }
-      i = 23;
+      if (i instanceof Integer) {
+		  return true;
+		else{
+			throw new NumberFormatException();
+		}
 	  } catch (NumberFormatException e) {
-	      System.out.println("Exception abgefangen");
+	      System.out.println("Number format Exception");
 	  }
-	  i = 42;
 	}
 
 	public double divide(double divisor, double divident) {
-		double result;
-		if (divident == 0) {
-		    result = Double.POSITIVE_INFINITY;
-		} else {
-		    result = divisor / divident;
-		}
-		double result2 = result;
-		return result;
-	}
-
-	public int justALoop() {
-    int a = 2;
-    for (int i = 0; i < 10;) {
-    	i = i + a;
-    }
-    return a;
+		return divisor/divident;
 	}
 }
