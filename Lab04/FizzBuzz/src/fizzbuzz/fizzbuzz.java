@@ -16,4 +16,7 @@ public class fizzbuzz {
 			return String.valueOf(n);
 		}
 	}
+	public static int amtFizz(int n){
+		return n/3;
+	}
 }

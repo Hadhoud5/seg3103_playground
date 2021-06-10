@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class fizzbuzz_test {
 	fizzbuzz obj = new fizzbuzz();
 	@Test
-	void testfinalResult() {
+	void test_finalResult() {
 		assertEquals("fizz",obj.finalResult(3));
 		assertEquals("buzz",obj.finalResult(10));
 		assertEquals("fizzbuzz",obj.finalResult(15));
@@ -15,5 +15,7 @@ class fizzbuzz_test {
 		assertEquals("fizzbuzz",obj.finalResult(90));
 		assertEquals("0",obj.finalResult(0));
 	}
-
+	void test_amtFizz() {
+		assertEquals(1,obj.amtFizz(3));
+	}
 }
