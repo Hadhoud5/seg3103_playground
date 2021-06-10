@@ -3,7 +3,7 @@ I was having errors with using Jacoco on Eclipse and IntelliJ, likley because I'
 <img width="1119" alt="Computation Error" src="https://user-images.githubusercontent.com/36574103/120664671-206bc800-c459-11eb-9978-858e5b6e3bb4.png">
 I still did my best to resolve this issue and try with IntelliJ, I still got similar errors.
 
-Although I coundl't run coverage tests, I still went over the Computation.java file and did similar white
+Although I coundn't run coverage tests, I still went over the Computation.java file and did similar white
 box testing practices in order to make the code run efficiently.
 
 For part 2 of the lab, I didn't make any changes due to not eing able to correctly run Jacoco, I still anlayzed the file
