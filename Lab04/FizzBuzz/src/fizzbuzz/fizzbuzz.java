@@ -17,6 +17,12 @@ public class fizzbuzz {
 		}
 	}
 	public static int amtFizz(int n){
-		return n/3;
+		return (n/3)-(n/15);
+	}
+	public static int amtBuzz(int n){
+		return (n/5)-(n/15);
+	}
+	public static int amtFizzbuzz(int n){
+		return (n/15);
 	}
 }
