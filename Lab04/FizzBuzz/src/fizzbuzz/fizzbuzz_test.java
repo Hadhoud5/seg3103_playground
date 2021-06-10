@@ -8,7 +8,7 @@ class fizzbuzz_test {
 	fizzbuzz obj = new fizzbuzz();
 	@Test
 	void testfinalResult() {
-		assertEquals(3,"fizz");
+		assertEquals("fizz",obj.finalResult(3));
 	}
 
 }
