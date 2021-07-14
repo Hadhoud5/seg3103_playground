@@ -47,7 +47,7 @@ defmodule Grades do
   def percentage_grade(marks) do 
     #Randomly select a % from 0 to 100
     :rand.uniform(100)
-  end
+  end 
 
   def letter_grade(marks) do
     #First I created a list of letter grades
